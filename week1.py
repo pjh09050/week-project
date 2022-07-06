@@ -20,7 +20,8 @@ print(list)
 
 # 변수 5번
 list = ["파이썬은", "정말", "편하다"]
-print(list[0], list[1], list[2])
+result = " ".join(list)
+print(result)
 
 # 변수 6번
 list = [1, 50, 410, 10, 3, 4, 5]
@@ -59,7 +60,7 @@ score = [70, 60, 55, 75, 95, 90, 80, 80, 85, 100]
 total = 0
 for i in score:
     total += i
-average = total / 10
+average = total / len(score)
 print(average)
 
 # 제어문 5번
